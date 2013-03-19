@@ -5,4 +5,4 @@ require File.expand_path('../application', __FILE__)
 Mailit::Application.initialize!
 
 #this is added for heroku?????
-config.action_mailer.delivery_method = :smtp
+#config.action_mailer.delivery_method = :smtp
