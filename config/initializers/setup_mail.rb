@@ -1,9 +1,11 @@
+
+
   ActionMailer::Base.smtp_settings = {
-  :address              => "smtp.gmail.com",
-  :port                 => 587,
-  :domain               => "gmail.com",
-  :user_name            => "dao888@gmail.com",
-  :password             => "dao4239jupiter",
+  :address              => "mail.usroc.com",
+  :port                 => 25,
+  :domain               => "usroc.com",
+  :user_name            => "accounting/usroc.com",
+  :password             => "dollar8888",
   :authentication       => "plain",
   :enable_starttls_auto => true
 }
