@@ -8,6 +8,5 @@ ActionMailer::Base.smtp_settings = {
   :port  => 995,
   :user_name  => "accounting",
   :password  => "dollar8888",
-  :authentication  => :login,
-  :enable_starttls_auto => true
+  :authentication  => :login
 }
