@@ -4,9 +4,9 @@
 
 
 ActionMailer::Base.smtp_settings = {
-  :address  => "mail.usroc.com",
-  :port  => 25,
-  :user_name  => "accounting@usroc.com",
-  :password  => "dollar8888",
+  :address  => "mail.hammg.com",
+  :port  => 110,
+  :user_name  => "uplander@hammg.com",
+  :password  => "v-RH^3Yr",
   :authentication  => :login
 }
