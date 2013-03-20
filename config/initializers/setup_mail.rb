@@ -8,5 +8,7 @@ ActionMailer::Base.smtp_settings = {
   :port  => 110,
   :user_name  => "uplander@hammg.com",
   :password  => "v-RH^3Yr",
-  :authentication  => :login
+  :authentication       => "plain",
+  :enable_starttls_auto => true
+
 }
