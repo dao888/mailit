@@ -1,15 +1,12 @@
-
-
-
-
-
-ActionMailer::Base.smtp_settings = {
-  :address  => "mail.sendgrid.net",
-  :port  => 587,
-  :user_name  => ENV['SENDGRID_USERNAME'],
-  :password  => ENV['SENDGRID_PASSWORD'],
+ 
+ 
+ 
+  ActionMailer::Base.smtp_settings = {
+  :address              => "smtp.gmail.com",
+  :port                 => 587,
+  :domain               => "gmail.com",
+  :user_name            => "dao888@gmail.com",
+  :password             => "dao4239jupiter",
   :authentication       => "plain",
-  :enable_starttls_auto => true,
-  :domain         => 'heroku.com'
-
+  :enable_starttls_auto => true
 }
